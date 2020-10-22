@@ -1,15 +1,21 @@
 import java.util.Scanner;
+import java.util.Date;
+
+/**
+*
+* @author David Andrej Ibraheem 
+*/
 
 public class Invoice {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
 
         System.out.println("Please insert the amount due: ");
-        String AmountDue= input.nextLine();
+        double AmountDue= Double.parseDouble(input.nextLine());
         System.out.println("Please insert the due date: ");
-        String DueDate= input.nextLine();
+        String date= input.nextLine();
 
 
-        DB.insertSQL("Insert into tblInvoices Values('"+AmountDue+"','"+DueDate+"')");
+        DB.insertSQL("Insert into tblInvoices Values('"+date+"',"+AmountDue+")");
     }
 }
