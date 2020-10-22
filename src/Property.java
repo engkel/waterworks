@@ -8,7 +8,7 @@ public class Property {
         
         System.out.println("Please insert the property address: ");
         String address= input.nextLine();
-        System.out.println("Please insert proberty type: ");
+        System.out.println("Please insert property type: ");
         String propertyType= input.nextLine();
         System.out.println("Please insert number of meters: ");
         String NumberOfMeters= input.nextLine();
