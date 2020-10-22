@@ -5,6 +5,7 @@ public class Meters {
         Scanner input= new Scanner(System.in);
         
         //Getting the inputs from the user
+        
         System.out.println("Please insert meter Id: ");
         String MeterId= input.nextLine();
         System.out.println("Please insert consumption: ");
