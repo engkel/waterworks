@@ -1,6 +1,17 @@
 import java.util.Scanner;
 import java.sql.SQLException;
 public class DailyTotals {
+    /** @author Andrej David Ibraheem
+     *  DailyTotals class firstly asks a user to input the type of payment to generate the totals for (cash/bank transfer/giro)
+     *  Once the input is recieved the program checks the database and collects all of the data with the specific type and date
+     *  and it adds up all of the amounts, then the program displays the data to the user
+     *
+     *
+     */
+    
+    
+    
+    
     public static void main(String[] args) {
         //Getting the inputs from the user
         System.out.println("What type of payments do you want to generate totals for?");
