@@ -9,6 +9,9 @@ public class Customers {
 
     public static void main (String [] args){
         Scanner input= new Scanner(System.in);
+        
+        //Getting inputs from the user
+        
         System.out.println("Please insert the customers name: ");
         String name = input.nextLine();
         System.out.println("Please insert the customers address: ");
@@ -19,7 +22,9 @@ public class Customers {
         String phoneNumber= input.nextLine();
         System.out.println("Please input customers status(Active or inactive): ");
         String activity = input.nextLine();
-
+        
+        //Inserting the given values into our database
+        
         DB.insertSQL("Insert into tblCustomers Values('"+name+"','"+address+"','"+email+"','"+phoneNumber+"','"+activity+"')");
 
 
