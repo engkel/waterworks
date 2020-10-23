@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 public class Meters {
+   /**
+     * @author Andrej David Ibraheem
+     *
+     * The class meters ask the user to input the data on meter Id consuption of that meter and the date 
+     * Then the program stores all of the input data into database
+     */
+      
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
         
