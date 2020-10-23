@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
 public class StatisticReader {
+    
+    /**
+    * @author David Ibraheem Andrej
+    * class StatisticReader is used to generate a single day total consumption
+    * the program asks the user to input a date, and all of the consumption data on that day is collected is added up 
+    * and the total is printed to the user
+    */
+    
     public static void main(String[] args) {
         
         //Getting user inputs
