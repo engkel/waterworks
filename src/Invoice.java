@@ -2,8 +2,9 @@ import java.util.Scanner;
 import java.util.Date;
 
 /**
-*
 * @author David Andrej Ibraheem 
+* Invoice class is used to create an invoice, it asks user to input the amount due and the due date of the invoice
+*
 */
 
 public class Invoice {
