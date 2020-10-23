@@ -9,12 +9,7 @@ public class Property {
     * number of meters,customer ID, and meter ID
     * All of the input data is then stored in the database
     */
-    
-    
-    
-    
-    
-    
+     
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
         
