@@ -19,7 +19,7 @@ public class Payments {
     
     
     
-    public static void main(String[] args) {
+    public Payments() {
         Scanner input= new Scanner(System.in);
 
         //Getting the inputs from the user
@@ -38,5 +38,10 @@ public class Payments {
         //Inserting the given values into our database
 
         DB.insertSQL("Insert into tblPayments Values('"+CostumerId+"','"+date+"','"+PaymentType+"','"+Amount+"','"+reminderCount+"')");
+    }
+
+    public static void main(String[] args) {
+        Payments myObj = new Payments();
+        System.out.println(myObj);
     }
 }

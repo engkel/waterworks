@@ -11,7 +11,7 @@ public class Customers {
      * If the customer is inactive it means that the customer has moved or has recieved 3 reminders about the bill 
      */
 
-    public static void main (String [] args){
+    public Customers (){
         Scanner input= new Scanner(System.in);
         
         //Getting inputs from the user
@@ -33,8 +33,11 @@ public class Customers {
 
 
 
+    }
 
-
+    public static void main(String[] args) {
+        Customers myObj= new Customers();
+        System.out.println(myObj);
     }
 
 }

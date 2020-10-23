@@ -12,7 +12,7 @@ public class DailyTotals {
     
     
     
-    public static void main(String[] args) {
+    public DailyTotals() {
         //Getting the inputs from the user
         System.out.println("What type of payments do you want to generate totals for?");
         Scanner input = new Scanner(System.in);
@@ -41,5 +41,10 @@ public class DailyTotals {
             System.out.println("input valid payment type");
 
         }
+    }
+
+    public static void main(String[] args) {
+        DailyTotals myObj = new DailyTotals();
+        System.out.println(myObj);
     }
 }

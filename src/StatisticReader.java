@@ -9,7 +9,7 @@ public class StatisticReader {
     * and the total is printed to the user
     */
     
-    public static void main(String[] args) {
+    public StatisticReader() {
         
         //Getting user inputs
 
@@ -34,5 +34,10 @@ public class StatisticReader {
         } while(true);
 
 
+    }
+
+    public static void main(String[] args) {
+        StatisticReader myObj = new StatisticReader();
+        System.out.println(myObj);
     }
 }

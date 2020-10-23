@@ -10,7 +10,7 @@ public class Property {
     * All of the input data is then stored in the database
     */
      
-    public static void main(String[] args) {
+    public Property() {
         Scanner input= new Scanner(System.in);
         
         //Getting the inputs from the user
@@ -29,5 +29,10 @@ public class Property {
         //Inserting the given values into our database
 
         DB.insertSQL("Insert into tblProperty Values('"+address+"','"+propertyType+"','"+NumberOfMeters+"','"+CustomerId+"','"+MeterId+"')");
+    }
+
+    public static void main(String[] args) {
+        Property myObj = new Property();
+        System.out.println(myObj);
     }
 }

@@ -8,7 +8,7 @@ public class Meters {
      * Then the program stores all of the input data into database
      */
       
-    public static void main(String[] args) {
+    public Meters() {
         Scanner input= new Scanner(System.in);
         
         //Getting the inputs from the user
@@ -25,4 +25,9 @@ public class Meters {
         DB.insertSQL("Insert into tblMeters Values('"+MeterId+"','"+Consumption+"','"+date+"')");
 
     }
+
+    public static void main(String[] args) {
+    Meters myObj = new Meters();
+                System.out.println(myObj);
+}
 }
